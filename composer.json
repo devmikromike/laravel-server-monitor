@@ -13,7 +13,14 @@
             "email": "freek@spatie.be",
             "homepage": "https://spatie.be",
             "role": "Developer"
+        },
+        {
+            "name": "MikroMike",
+            "email": "dev@mikromike.email",
+            "homepage": "https://mikromike.fi",
+            "role": "Developer"
         }
+
     ],
     "require": {
         "ext-json": "*",
