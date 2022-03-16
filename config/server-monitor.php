@@ -37,6 +37,9 @@ return [
      */
     'ssh_command_suffix' => '',
 
+    // notification title/subject
+    'notification_title' => 'Server Monitor Alert',
+
     'notifications' => [
 
         'notifications' => [

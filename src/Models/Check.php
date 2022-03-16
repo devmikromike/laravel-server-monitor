@@ -134,4 +134,12 @@ class Check extends Model
 
         $this->save();
     }
+     public function check(array $config): bool
+     {
+       //
+     }
+     public function message(): string
+     {
+       //
+     }
 }
