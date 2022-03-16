@@ -63,6 +63,9 @@ return [
         'slack' => [
             'webhook_url' => env('SERVER_MONITOR_SLACK_WEBHOOK_URL'),
         ],
+        'database' => [
+          'table'     => 'notifications'
+      ],
 
         /*
          * Here you can specify the notifiable to which the notifications should be sent. The default
