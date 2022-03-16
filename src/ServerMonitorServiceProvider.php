@@ -26,6 +26,7 @@ class ServerMonitorServiceProvider extends ServiceProvider
 
             $this->publishesMigration('CreateHostsTable', 'create_hosts_table', 1);
             $this->publishesMigration('CreateChecksTable', 'create_checks_table', 2);
+            $this->publishesMigration('CreateNotificationsTable', 'create_notifications_table', 3);
         }
     }
 
