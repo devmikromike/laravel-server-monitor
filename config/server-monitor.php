@@ -44,9 +44,9 @@ return [
 
         'notifications' => [
             Spatie\ServerMonitor\Notifications\Notifications\CheckSucceeded::class => [],
-            Spatie\ServerMonitor\Notifications\Notifications\CheckRestored::class => ['slack'],
-            Spatie\ServerMonitor\Notifications\Notifications\CheckWarning::class => ['slack'],
-            Spatie\ServerMonitor\Notifications\Notifications\CheckFailed::class => ['slack'],
+            Spatie\ServerMonitor\Notifications\Notifications\CheckRestored::class => ['log'],
+            Spatie\ServerMonitor\Notifications\Notifications\CheckWarning::class => ['log'],
+            Spatie\ServerMonitor\Notifications\Notifications\CheckFailed::class => ['log'],
         ],
 
         /*
@@ -60,7 +60,7 @@ return [
             'to' => 'your@email.com',
         ],
 
-      
+
         'database' => [
           'table'     => 'notifications'
       ],
