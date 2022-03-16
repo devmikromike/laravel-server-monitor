@@ -60,9 +60,7 @@ return [
             'to' => 'your@email.com',
         ],
 
-        'slack' => [
-            'webhook_url' => env('SERVER_MONITOR_SLACK_WEBHOOK_URL'),
-        ],
+      
         'database' => [
           'table'     => 'notifications'
       ],
